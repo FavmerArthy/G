@@ -2,14 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.TopDiv {
-    border: 2px solid red;
-}
-
-.BottomDiv {
-    border: 1px solid green;
+    text-decoration: none;
 }
 
 .TopDiv {
@@ -28,7 +21,6 @@
 }
 
 .MiddleDiv {
-    border: 3px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,28 +32,28 @@
 .LogoDiv
 {
     margin-top: 100px;
-    border: 2px solid blueviolet;
 }
 
 .BottomDiv1 {
-    border: 2px solid orange;
+    border-bottom: 1px solid rgb(178, 170, 180);
+    background-color: rgb(235, 238, 241);
     padding: 10px;
+    color: rgb(107, 106, 106)
 }
 
 .BottomDiv2 {
-    border: 1px solid blue;
+    background-color: rgb(241, 237, 237);
     display: flex;
     width: 100vw;
+    color: rgb(107, 106, 106);
 }
 
 .FirstDiv {
-    border: 2px solid yellow;
     display: flex;
     width: 40%;
 }
 
 .SecondDiv {
-    border: 2px solid rgb(236, 97, 120);
     display: flex;
     width: 60%;
     justify-content: right;
@@ -90,7 +82,6 @@
     border: none;
     border-radius: 5px;
     color: white;
-    cursor: pointer;
 }
 
 
@@ -107,6 +98,7 @@
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
+
 }
 
 .ButtonOneDiv {
@@ -143,7 +135,6 @@
 
 .LanguageDiv
 {
-    border: 3px solid greenyellow;
     display: flex;
     margin-top: 30px;
 }
@@ -152,16 +143,13 @@
 {
     display: flex;
     flex-direction: row;
-    border: 3px solid darkorange;
 
 }
 
 .LanguageDiv1
 {
-    border: 2px solid firebrick;
     display: flex;
     align-items: center;
-    padding: 3px;
 }
 
 .LanguageDiv2 div
@@ -169,3 +157,6 @@
      padding: 5px;
 }
 
+.FirstDiv a, .SecondDiv a, .PaddingDiv a{
+    color: rgb(107, 106, 106);
+}
