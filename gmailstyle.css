@@ -1,0 +1,114 @@
+.GoogleDiv
+{
+    border: 1px solid red;
+    width: 90px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.CreateDiv
+{
+    border: 2px solid green;
+    font-size:25px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.ContinueDiv
+{
+    border: 1px solid yellow;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.FirstnameDiv
+{
+    margin-left: 25px;
+    font-size: 15px;
+    width: 25vw;
+    height: 4vh;
+}
+
+.LastnameDiv
+{
+    margin-left: 5px;
+    margin-top: 22px;
+    font-size: 15px;
+    width: 25vw;
+    height: 4vh;
+
+}
+
+.UserDiv
+{
+    border: 1px solid brown;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.UserNameDiv
+{
+    width: 53vw;
+    height: 4vh;
+    font-size: 15px;
+}
+
+.UserOneDiv
+{
+    border: 1px solid purple;
+    margin-left: 29px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.PasswordDiv
+{
+    border: 1px solid aqua;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 25vw;
+    height: 5vh;
+}
+
+.ConfirmDiv
+{
+    border: 1px solid aqua;
+    margin-left: 5px;
+    margin-top: 22px;
+    font-size: 15px;
+    width: 25vw;
+    height: 5vh;
+}
+
+.PasswordDetailsDiv
+{
+    border: 1px solid blueviolet;
+    margin-left: 29px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.ShowPasswordDiv
+{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.SignInDiv
+{
+    border: 1px solid darkred;
+    margin-left: 256px; 
+    margin-bottom: 500px!important;
+}
+
+.NextDiv
+{
+    border: 1px solid chocolate;
+}
+
+/* .SignInContainer{
+    margin-top: 200px;
+} */

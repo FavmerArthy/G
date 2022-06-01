@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+}
+
+.PDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    height: 100vh;
+}
+
+.ParentDiv
+{
+    border: 1px solid rgb(178, 170, 180);
+    width: 50vw;
+    height: 90vh;
+    border-radius: 7px;
+    display: flex;
+}
+
+.LeftParentDiv
+{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.RightParentDiv
+{
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftOneDiv
+{
+    border: 1px solid greenyellow;
+    height: 20%;
+}
+
+.LeftTwoDiv
+{
+    border: 1px solid green;
+    height: 60%;
+}
+
+.LeftThirdDiv
+{
+    border: 1px solid coral;
+    height: 20%;
+}
+
+.ForBorder
+{
+    border: 1px solid rebeccapurple;
+    height: 33%;
+}
+
+.ForBorderDiv
+{
+    border: 1px solid royalblue;
+    height: 100%;
+    width: 50%;
+}
+
+.LeftThirdDiv
+{
+    display: flex;
+}
+
+.RightChildDiv
+{
+    border: 1px solid salmon;
+    width: 80%;
+    height: 50%;
+}
+
+.GoogleImgDiv
+{
+    border: 1px solid yellow;
+    width: 20%;
+}
+
+.GoogleLogoDiv
+{
+    display: flex;
+    align-items: center;
+}
+
+.CreateDiv
+{
+    display: flex;
+    align-items: center;
+}
+
+.ContinueDiv
+{
+    display: flex;
+    align-items: center;
+}
+
+.SignInDiv
+{
+    display: flex;
+    align-items: center;
+}
+
+.NextDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.ForColorBtn
+{
+    background-color: rgb(8, 8, 245);
+    padding: 8px 23px 8px 23px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.SignInA
+{
+    text-decoration: none;
+    color: rgb(101, 101, 231);
+}
