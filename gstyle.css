@@ -16,14 +16,14 @@
 {
     border: 1px solid rgb(178, 170, 180);
     width: 50vw;
-    height: 90vh;
+    height: 70vh;
     border-radius: 7px;
     display: flex;
+    padding: 25px;
 }
 
 .LeftParentDiv
 {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -31,7 +31,6 @@
 
 .RightParentDiv
 {
-    border: 1px solid red;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -40,31 +39,26 @@
 
 .LeftOneDiv
 {
-    border: 1px solid greenyellow;
     height: 20%;
 }
 
 .LeftTwoDiv
 {
-    border: 1px solid green;
     height: 60%;
 }
 
 .LeftThirdDiv
 {
-    border: 1px solid coral;
     height: 20%;
 }
 
 .ForBorder
 {
-    border: 1px solid rebeccapurple;
     height: 33%;
 }
 
 .ForBorderDiv
 {
-    border: 1px solid royalblue;
     height: 100%;
     width: 50%;
 }
@@ -76,14 +70,17 @@
 
 .RightChildDiv
 {
-    border: 1px solid salmon;
     width: 80%;
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .GoogleImgDiv
 {
-    border: 1px solid yellow;
     width: 20%;
 }
 
@@ -126,10 +123,71 @@
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    margin-right: 35px;
 }
 
 .SignInA
 {
     text-decoration: none;
-    color: rgb(101, 101, 231);
+    color: rgb(8, 8, 245);
+}
+
+.FirstNameDiv , .PasswordDiv
+{
+    border: 1px solid grey;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+
+.LastNameDiv , .ConfirmDiv
+{
+    border: 1px solid grey;
+    width: 40%;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.UserNameDiv
+{
+    border: 1px solid grey;
+    width: 85%;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.UserNameOneDiv
+{
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+.ConfirmOneDiv
+{
+    margin-left: 3px;
+    font-size: 13px;
+}
+/* .ShowPassWordDiv
+{
+    display: block;
+} */
+
+.CheckBoxDiv
+{
+    margin-top: 15px;
+}
+
+.SignLogoDiv
+{
+    width: 70%;
+    height: 75%;
+}
+
+.ImageDetailsDiv
+{
+    width: 70%;
+    margin-left: 5px;
 }
