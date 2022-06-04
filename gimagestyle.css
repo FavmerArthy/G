@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.TopDiv {
+    height: 10vh;
+    display: flex;
+}
+
+.TopLeftDiv {
+    height: 100%;
+    width: 15%;
+    border: 1px solid green;
+}
+
+.TopCenterDiv {
+    height: 100%;
+    width: 50%;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopRightDiv {
+    height: 100%;
+    width: 35%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SecondDiv {
+    height: 10vh;
+    display: flex;
+}
+
+.SecondLeftDiv {
+    border: 1px solid blue;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.SecondCenterDiv {
+    border: 1px solid brown;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SecondRightDiv {
+    border: 1px solid orange;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ThirdDiv {
+    border: 1px solid palevioletred;
+    height: 80vh;
+}
+
+.TopImgDiv {
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+}
+
+.TopCenterOneDiv {
+    height: 50%;
+    width: 90%;
+    border: 1px solid rgb(148, 144, 144);
+    border-radius: 25px;
+}
+
+.TopRightOneDiv {
+    border: 1px solid red;
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopRightTwoDiv {
+    border: 1px solid Blue;
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopRightThreeDiv {
+    border: 1px solid pink;
+    height: 100%;
+    width: 12%;
+}
+
+.SettingImgDiv
+{
+    height: 30px;
+    width: 30px;
+}
+
+.IconImgDiv
+{
+    height: 30px;
+    width: 30px;
+}
+
+.AllDiv , .ImagesDiv , .NewsDiv , .BooksDiv , .VideosDiv , .MoreDiv
+{
+    border: 1px solid green;
+    height: 50%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToolsDiv
+{
+    border: 1px solid red;
+    height: 50%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CollectionDiv , .SafeSearchDiv
+{
+    border: 1px solid blue;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
